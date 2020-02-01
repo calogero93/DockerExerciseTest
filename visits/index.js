@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
         res.send('Numeber of visits is ' + visits)
         client.set('visits', parseInt(visits)+1)
     });
-});s
+});
 
 app.listen(8081, () => {
 
